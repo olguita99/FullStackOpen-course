@@ -1,0 +1,10 @@
+server-->browser: HTML
+
+
+note over server:
+Server sends the initial information of page on HTML
+end note
+
+note over browser:
+HTML is executing whit javascript on the browser
+end note

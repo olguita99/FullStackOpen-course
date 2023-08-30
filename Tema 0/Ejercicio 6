@@ -1,0 +1,9 @@
+server-->browser: HTML
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server-->browser: State code 201 Created (creation) = https://studies.cs.helsinki.fi/exampleapp/spa
+
+note over server:
+Server sends the initial information of page on HTML
+When you add a note the browser send the petition to server
+and the server starts executing all the process again
+end note
